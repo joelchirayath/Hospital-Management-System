@@ -116,5 +116,4 @@ git clone https://github.com/joelchirayath/Hospital-Management-System
 - Incremental validation during feature integration  
 
 ## 📄 License
-This project was developed for educational purposes only as part of a university course.
-It is not intended for production or commercial use.
+This project is licensed under the **MIT License**.  
