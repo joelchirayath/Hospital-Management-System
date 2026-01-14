@@ -1,131 +1,120 @@
-Hospital Management System (Java + SQLite)
-📌 Project Overview
+# 🏥 Hospital Management System  
+### Java Desktop Application (Swing + SQLite) | SCRUM-Based Project
 
-This project is a Hospital Management System developed in Java using Swing for the UI and SQLite for data persistence.
-The system was built following SCRUM methodology, emphasizing incremental delivery, collaboration, and continuous improvement.
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Swing](https://img.shields.io/badge/UI-Java%20Swing-blue?style=flat-square)
+![SCRUM](https://img.shields.io/badge/Methodology-SCRUM-purple?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Academic%20Project-success?style=flat-square)
 
-The application supports multiple hospital roles such as receptionist, doctor, nurse, and manager, providing tools for appointment management, medical records, reporting, and operational analytics.
+---
 
-Over the course of development, 26 different features were implemented across multiple functional areas.
+## 📌 Overview
 
-🧑‍🤝‍🧑 Team & Methodology
+**Hospital Management System** is a Java-based desktop application designed to manage core hospital operations such as patient handling, appointments, medical records, and reporting.
 
-Team size: 3 members
+The system was developed using **Java Swing** for the user interface and **SQLite** for data persistence, following **SCRUM agile methodology** with incremental feature delivery across multiple sprints.
 
-Development methodology: SCRUM
+> The application supports multiple hospital roles, including **receptionist, doctor, nurse, and manager**, each with role-specific workflows and interfaces.
 
-Total sprints: 3
+---
 
-Sprint duration: 3 weeks per sprint
+## 🧑‍🤝‍🧑 Team & Agile Methodology
 
-Total development time: 9 weeks
+- **Team Size:** 3 members  
+- **Methodology:** SCRUM  
+- **Total Sprints:** 3  
+- **Sprint Duration:** 3 weeks  
+- **Total Development Time:** 9 weeks  
 
-Each sprint followed standard SCRUM practices:
+### SCRUM Practices Followed
 
-Sprint planning
+- Sprint planning & backlog refinement  
+- Task decomposition  
+- Incremental feature delivery  
+- Sprint reviews  
+- Continuous testing & integration  
 
-Task breakdown
+---
 
-Incremental feature delivery
+## ⚙️ Technologies Used
 
-Sprint review and refinement
+### Core Stack
 
-Continuous integration and testing
+- **Language:** Java  
+- **UI Framework:** Java Swing  
+- **Database:** SQLite  
 
-⚙️ Technologies Used
+### Architecture & Tooling
 
-Language: Java
+- **Architecture:** Layered Architecture  
+  - UI → Controller → Service → Model → Database  
+- **Build Tool:** Maven / Gradle  
+- **Version Control:** Git & GitHub  
 
-UI Framework: Java Swing
+---
 
-Database: SQLite
+## 🧩 Key Features (High-Level)
 
-Architecture: Layered (UI → Controller → Service → Model → DB)
+- ✔ Patient management  
+- ✔ Doctor & nurse management  
+- ✔ Appointment scheduling (normal & urgent)  
+- ✔ Medical records handling  
+- ✔ ICD-10 disease integration  
+- ✔ Role-based UI windows  
+- ✔ Statistical reports & analytics  
+- ✔ Time-based appointment analysis  
+- ✔ Charts & data visualization  
+- ✔ Input validation & error handling  
+- ✔ Database integrity (foreign keys)  
+- ✔ Modular & extensible design  
 
-Build Tool: Maven / Gradle (depending on setup)
+> ⚠️ Feature details are intentionally kept high-level to avoid coupling the README to specific user stories.
 
-Version Control: Git & GitHub
+---
 
-🧩 Key Features (High-Level)
+## 🗂️ Project Structure
 
-The system includes (but is not limited to):
-
-Patient management
-
-Doctor and nurse management
-
-Appointment booking (normal & urgent)
-
-Medical records handling
-
-ICD-10 disease integration
-
-Role-based UI windows
-
-Statistical reports and analytics
-
-Time-based appointment analysis
-
-Data visualization (charts & graphs)
-
-Validation and error handling
-
-Database integrity via foreign keys
-
-Modular, extensible design
-
-⚠️ Feature details are intentionally kept high-level to avoid coupling the README to specific user stories.
-
-🗂️ Project Structure (Simplified)
+```text
 src/main/java/
  └── giis/demo/
      ├── ui/            # Swing UI windows
      ├── service/       # Business logic
-     ├── model/         # Data models
+     ├── model/         # Domain models
      ├── util/          # Database & utilities
      └── dto/           # Data Transfer Objects
+```
+## 🚀 How to Run
 
-🧪 Testing & Validation
+### Prerequisites
 
-Manual UI testing per sprint
+- Java (JDK installed)
+- SQLite
+- IDE (IntelliJ IDEA or Eclipse)
 
-Database integrity testing
+### Setup
 
-Edge-case handling (empty results, long ranges, multiple selections)
+```bash
+git clone https://github.com/joelchirayath/Hospital-Management-System
+```
+- Open the project in your IDE
+- Ensure SQLite is available
+- Run the main application entry point
+- The database initializes automatically if not present
 
-Regression testing to ensure new features do not affect existing ones
+## 🧪 Testing & Validation
 
-🎯 Learning Outcomes
+### Testing Approach
 
-This project strengthened skills in:
+- Manual UI testing per sprint  
+- Database integrity testing  
 
-Java desktop application development
+### Quality Assurance
 
-SQL & relational database design
+- Edge-case handling (empty data, long ranges, multi-selection)  
+- Regression testing after each sprint  
+- Incremental validation during feature integration  
 
-SCRUM and agile teamwork
-
-Clean architecture and separation of concerns
-
-Debugging and incremental refactoring
-
-Collaborative development using Git
-
-🚀 How to Run
-
-Clone the repository:
-
-git clone <repository-url>
-
-
-Open the project in your IDE (Eclipse / IntelliJ).
-
-Ensure SQLite is available.
-
-Run the main application entry point.
-
-The database will initialize automatically if not present.
-
-📄 License
-
-This project was developed for educational purposes as part of a university course.
+## 📄 License
+This project was developed for educational purposes only as part of a university course.
+It is not intended for production or commercial use.
