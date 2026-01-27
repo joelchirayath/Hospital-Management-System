@@ -47,8 +47,8 @@ public class DoctorApptLogic {
                     : String.join(", ", consulted);
 
             // Hospital Gmail credentials - configure properly (use app password)
-            final String hospitalEmail = "hospital.oviedo12@gmail.com"; // your hospital Gmail
-            final String hospitalPassword = "vjrh xzcy hfxl gipe";   // use Gmail App Password
+            final String hospitalEmail = "EMAIL"; // your hospital Gmail. you want to replace this with a real email for the urgent functionto work with emailing functionality. 
+            final String hospitalPassword = "Password";   // use Gmail App Password
 
             Properties props = new Properties();
             props.put("mail.smtp.auth", "true");
